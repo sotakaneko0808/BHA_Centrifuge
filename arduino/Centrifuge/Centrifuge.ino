@@ -3,7 +3,7 @@
 */
 
 #include <Wire.h> // Needed for I2C connection
-#include <LiquidCrystal_I2C.h> // Needed for operating the LCD screen
+#include "LiquidCrystal_I2C.h" // Needed for operating the LCD screen
 #include <Servo.h> // Needed for controlling the ESC
 /* *******************************************************
 */
@@ -19,7 +19,7 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 /* *******************************************************
 /  Centrifuge Settings
 */
-static int Settings[2] = { 0, 0}; // Power and time
+int Settings[2] = { 0, 0}; // Power and time
 /* *******************************************************
 */
 
@@ -36,9 +36,14 @@ const int ledPin =  13;      // the number of Arduino's onboard LED pin
 
 /* *******************************************************
 /  Set the initial state of the machine
-/  In this code we will switch operation modes, from programming time, to programming power, to spinning, to slowing down
+/  In this code we will switch operation modes, from programming time, to programming speed, to spinning, to stopping/slowing down
 */
-const char* state = "StateTimeProgramming";
+#define STATE_TIMEPROG 1
+#define STATE_SPEEDPROG 2
+#define STATE_SPINNING 3
+#define STATE_STOP 4
+
+byte state = STATE_TIMEPROG;
 /* *******************************************************
 */
 
@@ -190,7 +195,7 @@ void loop() {
 void machineUpdate(uint16_t dt) {
 
   // StateTimeProgramming is the first state in which the user can set the time that the centrifuge has to spin
-  if(state == "StateTimeProgramming") {
+  if(state == STATE_TIMEPROG) {
     // Arm the Electronic Speed Controller
     myservo.write(21);
     
@@ -214,13 +219,13 @@ void machineUpdate(uint16_t dt) {
 
     // In case the button is pressed, continue to next state
     if(buttonState > 0) {
-      stateChange("StateRPMProgramming");
+      stateChange(STATE_SPEEDPROG);
       encoderValue = 0;
     }  
   } 
  
-  // StateRPMProgramming is similar to StateTimeProgramming, but now the user can set the power of the centrifuge
-  if(state == "StateRPMProgramming") {
+  // STATE_SPEEDPROG is similar to STATE_TIMEPROG, but now the user can set the speed of the centrifuge
+  if(state == STATE_SPEEDPROG) {
     // Keep the ESC armed
     myservo.write(21);
     
@@ -243,13 +248,13 @@ void machineUpdate(uint16_t dt) {
 
     // Continue to next state if the button is pressed
     if(buttonState > 0) {
-      stateChange("StateSpin");
+      stateChange(STATE_SPINNING);
       encoderValue = 0;
     }     
   } 
  
   // StateSpin is the state in which the motor is actually running
-  if(state == "StateSpin") {
+  if(state == STATE_SPINNING) {
     // Spin the rotor at the power that was set by the user
     myservo.write(Settings[0]);
     
@@ -278,17 +283,17 @@ void machineUpdate(uint16_t dt) {
         
     // Change state after time runs out
     if(StateDt > Settings[1]*1000) {
-      stateChange("StateStop");
+      stateChange(STATE_STOP);
     }
     
     // Change state if the user presses the button
     if(buttonState > 0) {
-      stateChange("StateStop");
+      stateChange(STATE_STOP);
     }     
   }
 
   // StateStop stops the rotor
-  if(state == "StateStop") {
+  if(state == STATE_STOP) {
     // Stop the rotor and return to programming mode
     myservo.write(0);
     
@@ -300,7 +305,7 @@ void machineUpdate(uint16_t dt) {
     lcd.clear();
     
     // Go back to the first state
-    stateChange("StateTimeProgramming");
+    stateChange(STATE_TIMEPROG);
   }
 }
 /* *******************************************************
@@ -309,7 +314,7 @@ void machineUpdate(uint16_t dt) {
 /* *******************************************************
 /  stateChange switches the machine logic from one state to another
 */
-static void stateChange(const char* newstate) {
+void stateChange(byte newstate) {
   // set new state
   state = newstate;
   
@@ -379,7 +384,7 @@ void updateEncoder(){
 /* *******************************************************
 /  measureSpeed converts the pulses from the infrared sensor into RPM and Gforce
 */
-static void measureSpeed() 
+void measureSpeed() 
 { 
   // Derived from code of Karlin Yeh
   PrevRPM = RPMnow;
