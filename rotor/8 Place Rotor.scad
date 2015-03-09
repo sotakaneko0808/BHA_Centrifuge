@@ -50,7 +50,7 @@ difference () { // substract tube holders from outer ring
 	translate([0,tube_pos,-1]) rotate([0,-1*tube_angle,90]) cylinder(h=8, r=tube_radius);
 
 	//tube holding cylinders in between the previous tubes
-	translate([-1 * tube_pos * cos(45), -1 * tube_pos * sin(45),-1]) rotate ([0,tube_angle,45]) cylinder(h=8, r=tube_radius);
+	translate([-1 * tube_pos * cos(45), -1 * tube_pos * sin(45),-1]) rotate([0,tube_angle,45]) cylinder(h=8, r=tube_radius);
 	translate([-1 * tube_pos * cos(45), tube_pos * sin(45),-1]) rotate([0,tube_angle,-45]) cylinder(h=8, r=tube_radius);
 	translate([tube_pos * cos(45), -1 * tube_pos * sin(45),-1]) rotate([0,-1*tube_angle,-45]) cylinder(h=8, r=tube_radius);
 	translate([tube_pos * cos(45), tube_pos * sin(45),-1]) rotate([0,-1*tube_angle,45]) cylinder(h=8, r=tube_radius);
