@@ -1,5 +1,11 @@
+BioHackAcadamy Centrifuge
 
-Documentation for the BioHackAcadamy Centrifuge is located [here](http://biohackacademy.github.io/biofactory/class/5-centrifuge/)
+* Arduino Code
+* Bill of Materials
+* Fritzing wiring scheme
+* Sketchup file
+* Rotor design
 
-Demo codes for testing individual components can be found in the Arduino folder
+Archive contains:
 
+* BHA 2015-1 "BioFactory" Design
