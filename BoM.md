@@ -25,12 +25,12 @@ No|Amount|Description|Supplier NL|Cost
 
 ### Nice to have
 
-No|Amount|Description|Supplier NL|Cost|
-|-:|----:|:---------|:-------|---:|
-|1|1|Infrared sensor|[Farnell](http://nl.farnell.com/fairchild-semiconductor/qrd1114/opto-switch-reflective/dp/1467858?Ntt=1467858)|1.70|
-|2|1|6.8 KOhm resistor|[Farnell](http://nl.farnell.com/multicomp/mcf-0-25w-6k8/resistor-carbon-film-6k8-0-25w/dp/9339663?Ntt=9339663)|0.02|
-|3|1|220 Ohm resistor|[Farnell](http://nl.farnell.com/multicomp/mcf-0-25w-220r/resistor-carbon-film-220r-0-25w/dp/9339299?Ntt=9339299)|0.02|
-|4|1|I2C LCD display|[iPrototype](https://iprototype.nl/products/components/led-lcd/lcd16x2-I2C-BL), ([HobbyElectronica](http://www.hobbyelectronica.nl/product/hd44780-16x2-karakters-lcd-display-module-blauw-backlight/) + [HobbyElectronica](http://www.hobbyelectronica.nl/product/i2c-lcd-interface-voor-16x2-en-20x4-displays/))|16.95|
+No|Amount|Description|Supplier NL|Cost
+------------: | ------------: | :------------ | :------------ | ------------:
+1|1|Infrared sensor|[Farnell](http://nl.farnell.com/fairchild-semiconductor/qrd1114/opto-switch-reflective/dp/1467858?Ntt=1467858)|1.70
+2|1|6.8 KOhm resistor|[Farnell](http://nl.farnell.com/multicomp/mcf-0-25w-6k8/resistor-carbon-film-6k8-0-25w/dp/9339663?Ntt=9339663)|0.02
+3|1|220 Ohm resistor|[Farnell](http://nl.farnell.com/multicomp/mcf-0-25w-220r/resistor-carbon-film-220r-0-25w/dp/9339299?Ntt=9339299)|0.02
+4|1|I2C LCD display|[iPrototype](https://iprototype.nl/products/components/led-lcd/lcd16x2-I2C-BL), ([HobbyElectronica](http://www.hobbyelectronica.nl/product/hd44780-16x2-karakters-lcd-display-module-blauw-backlight/) + [HobbyElectronica](http://www.hobbyelectronica.nl/product/i2c-lcd-interface-voor-16x2-en-20x4-displays/))|16.95
 
 **Alternatives**
 
