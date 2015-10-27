@@ -17,7 +17,7 @@ No|Amount|Description|Supplier NL|Cost
 9|1|10K resistor|[Farnell](http://nl.farnell.com/te-connectivity/cfr16j10k/resistor-carbon-10k-0-25w-5/dp/2329474), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=7016)|0.06
 10|4|Rubber feet|[Conrad](https://www.conrad.nl/nl/toolcraft-elastische-buffer-zelfklevend-pd2104sw-x-h-10-mm-x-4-mm-zwart-1-stuks-401489.html)|0.08
 11|1|Sheet of 45cm x 95cm 3mm MDF|Houthandel Schmidt|
-12|1|5mm shaft adapter|[HobbyKing]()|
+12|1|5mm shaft adapter|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__44353__Prop_adapter_to_suit_5_0mm_motor_shaft_collet_EU_warehouse_.html?strSearch=JY5.0)|
 
 
 * As a rotor we wil use a 3D print of your own design, or this [Microfuge 8 Place Rotor](http://www.thingiverse.com/thing:97524)
