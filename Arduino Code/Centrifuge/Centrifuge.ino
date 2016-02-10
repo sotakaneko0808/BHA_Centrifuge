@@ -29,7 +29,7 @@ int Settings[2] = { 0, 0}; // Power and time
 boolean buttonState = 0; // Start button
 int ledstate = false; // Blinking indicator LED
 // set pin numbers:
-const int buttonPin = 5;     // the number of the pushbutton pin
+const int buttonPin = 12;     // the number of the pushbutton pin
 const int ledPin =  13;      // the number of Arduino's onboard LED pin
 /* *******************************************************
 */
