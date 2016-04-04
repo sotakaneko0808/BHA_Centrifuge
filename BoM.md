@@ -4,7 +4,7 @@ Make sure you have an Arduino or equivalent microprocessor.
 
 ### Components that are needed without using a Biohack Board
 
-No|Amount|Description|Supplier NL|Cost
+No|Amount|Description|Supplier NL|Cost|Supplier Japan|Cost|
 ------------: | ------------: | :------------ | :------------ | ------------:
 1|1|DC Brushless motor 800 RPM/V & Electronic Speed Controller|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__40269__HobbyKing_Donkey_ST3511_810kv_Brushless_Power_System_Combo.html)|12.92
 2|1|3.5mm connector|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__18448__Female_XT60_connectors_5pcs_bag_GENUINE.html)|2.31
