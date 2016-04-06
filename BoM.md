@@ -4,27 +4,27 @@ Make sure you have an Arduino or equivalent microprocessor.
 
 ### Components that are needed without using a Biohack Board
 
-No|Amount|Description|Supplier NL|Cost|Supplier Japan|Cost|
+No|Amount|Description|Supplier NL|Cost|Supplier Japan|Cost (JPY)|
 ------------: | ------------: | :------------ | :------------ | ------------:| :----------- | ------------:
-1|1|DC Brushless motor 800 RPM/V & Electronic Speed Controller|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__40269__HobbyKing_Donkey_ST3511_810kv_Brushless_Power_System_Combo.html)|12.92|[Marutsu 1 Pair](http://www.marutsu.co.jp/GoodsDetail.jsp?salesGoodsCode=579105&shopNo=3), [Amazon 10 Pair](http://www.amazon.co.jp/dp/B014VT4236)|Marutsu:280 JPY/Pair+Shipping,  Amazon:199.9 JPY/Pair+Shipping
-2|1|3.5mm connector|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__18448__Female_XT60_connectors_5pcs_bag_GENUINE.html)|2.31
-3|1|Rotary encoder|[iPrototype](https://iprototype.nl/products/components/buttons-switches/rotary-encoder-rgb), [Farnell](http://nl.farnell.com/alps/ec12e1240406/encoder-vertical-12mm-12det-12ppr/dp/2065052), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=9553)|0.60
-4|1|Knob|[Farnell](http://nl.farnell.com/multicomp/cr-r4-7/knob-soft-touch-d-shaft-black/dp/1440012?ost=1440012)|0.23
-5|1|Power switch|[iPrototype](https://iprototype.nl/products/components/buttons-switches/rocker-switch-large), [Farnell](http://nl.farnell.com/multicomp/mc34224-071-1601/switch-spdt-20a-250vac-blk-red/dp/1454382)
-6|1|DC power jack|[EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=14342)|0.85
-7|1|12V 5A Power supply|[Farnell](http://nl.farnell.com/ideal-power/66ms-00120500-s01-v/psu-12v-5a-earthed-output/dp/2112013), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=13247)|20.00
-8|1|Push button|[iPrototype](https://iprototype.nl/products/components/buttons-switches/momentary-push-button)|0.55
-9|1|10K resistor|[Farnell](http://nl.farnell.com/te-connectivity/cfr16j10k/resistor-carbon-10k-0-25w-5/dp/2329474), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=7016)|0.06
-10|4|Rubber feet|[Conrad](https://www.conrad.nl/nl/toolcraft-elastische-buffer-zelfklevend-pd2104sw-x-h-10-mm-x-4-mm-zwart-1-stuks-401489.html)|0.08
-11|1|Sheet of 45cm x 95cm 3mm MDF|Houthandel Schmidt|
-12|1|5mm shaft adapter|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__44353__Prop_adapter_to_suit_5_0mm_motor_shaft_collet_EU_warehouse_.html?strSearch=JY5.0)|
+1|1|DC Brushless motor 800 RPM/V & Electronic Speed Controller|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__40269__HobbyKing_Donkey_ST3511_810kv_Brushless_Power_System_Combo.html)|12.92|404 Not Found... or at least I can't find it|404 Not Found... same for this column
+2|1|3.5mm connector|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__18448__Female_XT60_connectors_5pcs_bag_GENUINE.html)|2.31|[Marutsu 1 Pair](http://www.marutsu.co.jp/GoodsDetail.jsp?salesGoodsCode=579105&shopNo=3), [Amazon 10 Pair](http://www.amazon.co.jp/dp/B014VT4236)|Marutsu:280/Pair,  Amazon:199.9/Pair
+3|1|Rotary encoder|[iPrototype](https://iprototype.nl/products/components/buttons-switches/rotary-encoder-rgb), [Farnell](http://nl.farnell.com/alps/ec12e1240406/encoder-vertical-12mm-12det-12ppr/dp/2065052), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=9553)|0.60|[Akizuki](http://akizukidenshi.com/catalog/g/gP-06357), [Marutsu](http://www.marutsu.co.jp/pc/i/41769), [Alps(5 PCS)(Maker)](https://goo.gl/FqWpLc)|Akizuki:80/Piece, Marutsu:380/Piece, Alps:64.8/Piece
+4|1|Knob|[Farnell](http://nl.farnell.com/multicomp/cr-r4-7/knob-soft-touch-d-shaft-black/dp/1440012?ost=1440012)|0.23|[Akatzuki](http://akizukidenshi.com/catalog/g/gP-03133)|50/Piece
+5|1|Power switch|[iPrototype](https://iprototype.nl/products/components/buttons-switches/rocker-switch-large), [Farnell](http://nl.farnell.com/multicomp/mc34224-071-1601/switch-spdt-20a-250vac-blk-red/dp/1454382)| |[Marutsu](http://www.marutsu.co.jp/pc/i/62673)|54/Piece
+6|1|DC power jack|[EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=14342)|0.85|[Marutsu](http://www.marutsu.co.jp/pc/i/594861), [Akizuki](http://akizukidenshi.com/catalog/g/gC-06568)|Marutsu:28/Piece, Akazuki:40/Piece
+7|1|12V 5A Power supply|[Farnell](http://nl.farnell.com/ideal-power/66ms-00120500-s01-v/psu-12v-5a-earthed-output/dp/2112013), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=13247)|20.00|[Akizuki](http://akizukidenshi.com/catalog/g/gM-06961), [Marutsu](http://www.marutsu.co.jp/pc/i/584440)|Akizuki:1750, Marutsu:1780
+8|1|Push button|[iPrototype](https://iprototype.nl/products/components/buttons-switches/momentary-push-button)|0.55|[Marutsu](http://www.marutsu.co.jp/pc/i/9607)|180/Piece
+9|1|10K resistor|[Farnell](http://nl.farnell.com/te-connectivity/cfr16j10k/resistor-carbon-10k-0-25w-5/dp/2329474), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=7016)|0.06|[Akazuki 100PCS](http://akizukidenshi.com/catalog/g/gR-25103)|1/Piece
+10|4|Rubber feet|[Conrad](https://www.conrad.nl/nl/toolcraft-elastische-buffer-zelfklevend-pd2104sw-x-h-10-mm-x-4-mm-zwart-1-stuks-401489.html)|0.08|[Marutsu 10 PCS](http://www.marutsu.co.jp/pc/i/18868), [Akizuki 4 PCS](http://akizukidenshi.com/catalog/g/gP-10080/)|Marutsu:10/Piece, Akizuki:15/Piece
+11|1|Sheet of 45cm x 95cm 3mm MDF|Houthandel Schmidt||I don't know...|Let's go to Tokyu Hands?
+12|1|5mm shaft adapter|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__44353__Prop_adapter_to_suit_5_0mm_motor_shaft_collet_EU_warehouse_.html?strSearch=JY5.0)||-----|-----
 13|1|Infrared sensor|[Farnell](http://nl.farnell.com/fairchild-semiconductor/qrd1114/opto-switch-reflective/dp/1467858?Ntt=1467858)|1.70
-14|1|6.8 KOhm resistor|[Farnell](http://nl.farnell.com/multicomp/mcf-0-25w-6k8/resistor-carbon-film-6k8-0-25w/dp/9339663?Ntt=9339663)|0.02
-15|1|220 Ohm resistor|[Farnell](http://nl.farnell.com/multicomp/mcf-0-25w-220r/resistor-carbon-film-220r-0-25w/dp/9339299?Ntt=9339299)|0.02
-16|1|I2C LCD display|[iPrototype](https://iprototype.nl/products/components/led-lcd/lcd16x2-I2C-BL), ([HobbyElectronica](http://www.hobbyelectronica.nl/product/hd44780-16x2-karakters-lcd-display-module-blauw-backlight/) + [HobbyElectronica](http://www.hobbyelectronica.nl/product/i2c-lcd-interface-voor-16x2-en-20x4-displays/))|16.95
-|17|2|10K resistor|[Farnell](http://nl.farnell.com/te-connectivity/cfr16j10k/resistor-carbon-10k-0-25w-5/dp/2329474), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=7016)|0.12
-|18|2|10nF capacitor|[EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=5695)|0.2
-|19|2|100nF capacitor|[EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=13443)|0.24
+14|1|6.8 KOhm resistor|[Farnell](http://nl.farnell.com/multicomp/mcf-0-25w-6k8/resistor-carbon-film-6k8-0-25w/dp/9339663?Ntt=9339663)|0.02|[Akizuki](http://akizukidenshi.com/catalog/g/gR-25682), [Marutsu](http://www.marutsu.co.jp/pc/i/1217) Both 100 Piece/Pack|Akizuki:10/Piece Marutsu:27/Piece
+15|1|220 Ohm resistor|[Farnell](http://nl.farnell.com/multicomp/mcf-0-25w-220r/resistor-carbon-film-220r-0-25w/dp/9339299?Ntt=9339299)|0.02|[Akizuki](http://akizukidenshi.com/catalog/g/gR-25221/), [Marutsu](http://www.marutsu.co.jp/pc/i/1152/) Both 100 PCS/Pack|Akizuki:10/Piece Marutsu:27/Piece
+16|1|I2C LCD display|[iPrototype](https://iprototype.nl/products/components/led-lcd/lcd16x2-I2C-BL), ([HobbyElectronica](http://www.hobbyelectronica.nl/product/hd44780-16x2-karakters-lcd-display-module-blauw-backlight/) + [HobbyElectronica](http://www.hobbyelectronica.nl/product/i2c-lcd-interface-voor-16x2-en-20x4-displays/))|16.95|[Akazuki](http://akizukidenshi.com/catalog/g/gP-05693)|1280/Piece
+|17|2|10K resistor|[Farnell](http://nl.farnell.com/te-connectivity/cfr16j10k/resistor-carbon-10k-0-25w-5/dp/2329474), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=7016)|0.12|Refer Row 9?
+|18|2|10nF capacitor|[EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=5695)|0.2|[RS Components Takes Order 25>=](http://jp.rs-online.com/web/p/ceramic-single-layer-capacitors/6530260/)|42/Piece
+|19|2|100nF capacitor|[EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=13443)|0.24|[RS Components Takes Order 25>=](http://jp.rs-online.com/web/p/ceramic-single-layer-capacitors/6530153/)|42/Piece
 
 ### Components that are needed on top of the Biohack Board
 
