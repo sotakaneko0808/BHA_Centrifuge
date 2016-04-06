@@ -6,7 +6,7 @@ Make sure you have an Arduino or equivalent microprocessor.
 
 No|Amount|Description|Supplier NL|Cost|Supplier Japan|Cost|
 ------------: | ------------: | :------------ | :------------ | ------------:| :----------- | ------------:
-1|1|DC Brushless motor 800 RPM/V & Electronic Speed Controller|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__40269__HobbyKing_Donkey_ST3511_810kv_Brushless_Power_System_Combo.html)|12.92
+1|1|DC Brushless motor 800 RPM/V & Electronic Speed Controller|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__40269__HobbyKing_Donkey_ST3511_810kv_Brushless_Power_System_Combo.html)|12.92|[Marutsu 1 Pair](http://www.marutsu.co.jp/GoodsDetail.jsp?salesGoodsCode=579105&shopNo=3), [Amazon 10 Pair](http://www.amazon.co.jp/dp/B014VT4236)|Marutsu:280 JPY/Pair+Shipping,  Amazon:199.9 JPY/Pair+Shipping
 2|1|3.5mm connector|[HobbyKing](http://www.hobbyking.com/hobbyking/store/__18448__Female_XT60_connectors_5pcs_bag_GENUINE.html)|2.31
 3|1|Rotary encoder|[iPrototype](https://iprototype.nl/products/components/buttons-switches/rotary-encoder-rgb), [Farnell](http://nl.farnell.com/alps/ec12e1240406/encoder-vertical-12mm-12det-12ppr/dp/2065052), [EOO](http://www.eoo-bv.nl/index.php?_a=viewProd&productId=9553)|0.60
 4|1|Knob|[Farnell](http://nl.farnell.com/multicomp/cr-r4-7/knob-soft-touch-d-shaft-black/dp/1440012?ost=1440012)|0.23
